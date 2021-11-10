@@ -14,12 +14,10 @@ def sanity_check():
 
 def confusion_matrix(y_real, y_pred):
     assert(len(y_real) == len(y_pred))
-     
     TP = 0
     FP = 0
     TN = 0
     FN = 0
-    
     for yr, yp in zip(y_real, y_pred):
         if yr == yp: 
             if yp == 1:
@@ -31,7 +29,6 @@ def confusion_matrix(y_real, y_pred):
                 FP += 1
             else:
                 FN += 1
-    
     return TP, TN, FP, FN
 
 def accuracy(y_real, y_pred):
@@ -49,5 +46,4 @@ def recall(y_real, y_pred):
 def f1(y_real, y_pred):
     pre = precision(y_real, y_pred)
     rec = recall(y_real, y_pred)
-    
     return 2.0 * (pre * rec) / (pre + rec)
