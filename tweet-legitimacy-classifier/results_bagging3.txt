@@ -1,0 +1,10 @@
+Ensemble Accuracy: 0.8351191777826372
+Ensemble Confusion Matrix for miscov19
+[[1464  224   52]
+ [  22 1392   59]
+ [  90  307  963]]
+Ensemble Accuracy (Augmented): 0.87258628554052
+Ensemble Confusion Matrix for augmented miscov19
+[[2229  229   67]
+ [  26 1781   90]
+ [ 106  320 1729]]
