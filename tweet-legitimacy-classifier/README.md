@@ -4,12 +4,22 @@
 
 Inside this document, you will find a description of the important files related to this project. It should contain:
 
-* README.md (This file)
-* tweet_classifier.ipynb
-* tweet_classifier_with_augmented_data.ipynb
-* bagging_tweet_classifier.ipynb
-* miscov19_final.csv
-* miscov19_augmented_final.csv
+* `README.md` (This file)
+* `tweet_classifier.ipynb`
+* `tweet_classifier_with_augmented_data.ipynb`
+* `bagging_tweet_classifier.ipynb`
+* `miscov19_final.csv`
+* `miscov19_augmented_final.csv`
+* `requirements.txt`
+
+## Environment:
+This project was developed inside of a Python 3.9 environment with all the packages listed inside of `requirements.txt`. One of the packages we use is NLTK, which is a natural language toolkit. We require the English Stopwords portion and the Lemmatization functionality of the package. Both features can be installed as long as you run the following code inside your environment:
+```
+# in the interactive python environment
+import nltk
+nltk.download()
+```
+This opens an interactive installer for which you will need to download `popular` for our code's purposes.
 
 ## Description
 
