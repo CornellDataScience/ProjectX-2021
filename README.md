@@ -15,7 +15,7 @@ The USC data source is exhaustive and contains over ~2 billion tweets. The `data
 
 ## ClaimBuster
 In this section you can find code to classify claims and non-claims.
-- Bi-Directional LSTM implementation of ClaimBuster<a href="https://colab.research.google.com/drive/1wNmkwNExu641akHIvOtkOVTMEbDrdmdo"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- Bi-Directional LSTM implementation of ClaimBuster <a href="https://colab.research.google.com/drive/1wNmkwNExu641akHIvOtkOVTMEbDrdmdo"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - <a href="https://github.com/idirlab/claimspotter">link to original ClaimBuster repository</a>
 
 ## Tweet Legitimacy Classifier
