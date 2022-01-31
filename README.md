@@ -13,3 +13,7 @@ In this section you can find code to classify claims and non-claims.
 Check the README.md inside of the tweet-legitimacy-classifier directory.
 
 ## Virality Analysis
+The pre-processing conducted can be found documented here: https://colab.research.google.com/drive/1AcasEIEHxz07N9FJ5EUmLitTqrVOlKhk?usp=sharing 
+Dataset naming and pathing might need to be adjusted if you're running locally. Pay attention to comments in the BERT section in order to run things properly.
+
+The models can be found here: https://colab.research.google.com/drive/1nArfr4hv7V-is2LYgz4PLyuqHcDkKOIc?usp=sharing
