@@ -61,6 +61,6 @@ This Jupyter notebook defines a ensemble model using four models produced by the
 * `models/third-augmented-miscov19-covid-twitter-bert-v2`
 * `models/fourth-augmented-miscov19-covid-twitter-bert-v2`
 
-These models were not distributed in the GitHub repository due to their size (5 GB zipped). They can be downloaded at this link:
+These models were not distributed in the GitHub repository due to their size (5 GB zipped). They can be downloaded at this link: [INSERT LINK TO GOOGLE DRIVE]
 
 Alternatively, you can produce the same four models using the seeds commented out in the seed cell of `tweet_classifier_with_augmented_date.ipynb`. This would alleviate the need to download such a large file, however you may need to fix some path issues by changing the `PATH` variables in this file. The drawback of this method is the amount of time it may take to train 4 models. (About 2 hours on our hardware)
