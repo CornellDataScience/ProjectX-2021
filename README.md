@@ -31,3 +31,8 @@ Ensure that when running any of the drive/file path commands that your local dir
 * Running the processed text through BERT to obtain the word vector embeddings also takes several hours. There is also some difficulty in running the data through the BERT model causing the kernel to crash fairly frequently. There is a tedious work around that involves running the code cell that initializes and creates the datasets as well as the loop mechanism cell that feeds the data through the BERT forward pass manually repeatededly (our attempts at automating this process were not successful as the kernel would crash). Follow the comments in those cells to run that process properly.
 
 The classification and regression models can be found and run with ease here: https://colab.research.google.com/drive/1nArfr4hv7V-is2LYgz4PLyuqHcDkKOIc?usp=sharing
+
+## Full Pipeline Analysis
+The curation of data and analysis of results can be found in this notebook: https://colab.research.google.com/drive/1uF7UoZY55Ybmh0TlvNPAbW4V_jJK0uFa?usp=sharing
+
+Note that this notebook does not include code that runs the data through the entire pipeline. It only includes the creation of the dataset as well as any analysis or derived insights.
