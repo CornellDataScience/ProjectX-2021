@@ -4,12 +4,22 @@
 
 Inside this document, you will find a description of the important files related to this project. It should contain:
 
-* README.md (This file)
-* tweet_classifier.ipynb
-* tweet_classifier_with_augmented_data.ipynb
-* bagging_tweet_classifier.ipynb
-* miscov19_final.csv
-* miscov19_augmented_final.csv
+* `README.md` (This file)
+* `tweet_classifier.ipynb`
+* `tweet_classifier_with_augmented_data.ipynb`
+* `bagging_tweet_classifier.ipynb`
+* `miscov19_final.csv`
+* `miscov19_augmented_final.csv`
+* `requirements.txt`
+
+## Environment:
+This project was developed inside of a Python 3.9 environment with all the packages listed inside of `requirements.txt`. One of the packages we use is NLTK, which is a natural language toolkit. We require the English Stopwords portion and the Lemmatization functionality of the package. Both features can be installed as long as you run the following code inside your environment:
+```
+# in the interactive python environment
+import nltk
+nltk.download()
+```
+This opens an interactive installer for which you will need to download `popular` for our code's purposes.
 
 ## Description
 
@@ -51,6 +61,6 @@ This Jupyter notebook defines a ensemble model using four models produced by the
 * `models/third-augmented-miscov19-covid-twitter-bert-v2`
 * `models/fourth-augmented-miscov19-covid-twitter-bert-v2`
 
-These models were not distributed in the GitHub repository due to their size (5 GB zipped). They can be downloaded at this link:
+These models were not distributed in the GitHub repository due to their size (5 GB zipped). They can be downloaded at this link: https://drive.google.com/file/d/1W1YjmzoWD3vn34xe3C6sFgCjM3RUAW8u/view?usp=sharing
 
 Alternatively, you can produce the same four models using the seeds commented out in the seed cell of `tweet_classifier_with_augmented_date.ipynb`. This would alleviate the need to download such a large file, however you may need to fix some path issues by changing the `PATH` variables in this file. The drawback of this method is the amount of time it may take to train 4 models. (About 2 hours on our hardware)
