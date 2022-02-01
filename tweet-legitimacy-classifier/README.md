@@ -35,7 +35,7 @@ This file contains everything in miscov19_final.csv and an additional 2005 Tweet
 
 ### Note for both datasets
 
-Since the Twitter Terms and Service only allows the distribution of the Tweet IDs in public datasets and for research, replicating our project will require rehydrating the Tweets from their IDs. A good tutorial for how to achieve that is provided at this GitHub repository's readme: https://github.com/echen102/COVID-19-TweetIDs.
+Since the Twitter Terms and Service only allows the distribution of the Tweet IDs in public datasets and for research, replicating our project will require rehydrating the Tweets from their IDs. We've included code for doing this this in `../data/MisCov19.ipynb`. A good tutorial for how to achieve that is provided at this GitHub repository's readme: https://github.com/echen102/COVID-19-TweetIDs.
 
 ### `tweet_classifier.ipynb`
 
