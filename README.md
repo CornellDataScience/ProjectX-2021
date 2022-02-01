@@ -11,7 +11,7 @@ The CMU data source can be downloaded here: https://zenodo.org/record/4024154#.Y
 
 The CMU data source can be hydrated manually by running the `data/MiscovData.ipynb` file. The only features added are the text from the tweets. A note on hydration is that the tweets are hydrated if they still exist at the time of hydration (i.e. if a tweet has been deleted then it won't show up anymore). 
 
-The USC data source is exhaustive and contains over ~2 billion tweets. The `data/CovMasterSet.ipynb` notebook samples tweet ids from the collection and compiles them into a CSV file. This file's hydration can then be completed through the use of the [Hydrator](https://github.com/DocNow/hydrator) application which can be downloaded locally and then used to populate features according to the documentation.
+The USC data source is exhaustive and contains over ~2 billion tweets. The `data/CovMasterSet.ipynb` notebook samples tweet ids from the collection and compiles them into a CSV file. This file's hydration can then be completed through the use of the [Hydrator](https://github.com/DocNow/hydrator) application which can be downloaded locally and then used to populate features according to the documentation. Some further data population and pre-processing occurs under the Virality Analysis section under the pre-processing notebook.
 
 ## ClaimBuster
 In this section you can find code to classify claims and non-claims.
