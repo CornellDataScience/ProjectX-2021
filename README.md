@@ -1,6 +1,9 @@
 # ProjectX-2021
 This is the GitHub repository for Cornell Data Science's 2021 ProjectX team. Members: Alexander Wang, Jerry Sun, Kevin Zhou, Kaitlyn Chen, Edward Gu, Melinda Fang.
 
+## Arxiv Paper
+https://arxiv.org/abs/2207.01483
+
 ## Instructions for how to replicate our results:
 In the following headings, we describe how each of our subproject experiments can be replicated.
 
